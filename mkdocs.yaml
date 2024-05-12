@@ -41,6 +41,8 @@ extra:
 copyright: Copyright &copy; 2024 Jan Löwenstrom
 
 plugins:
+  - git-revision-date-localized:
+      enable_creation_date: false
   - tags:
       tags_file: tags.md
   - blog:
