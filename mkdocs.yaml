@@ -1,5 +1,5 @@
 site_name: Jan's Blog
-site_url: http://localhost:8000
+site_url: https://kono94.github.io/blog
 theme:
   name: material
   language: en
