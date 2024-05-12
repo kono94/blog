@@ -1,0 +1,56 @@
+site_name: Jan's Blog
+site_url: http://localhost:8000
+theme:
+  name: material
+  language: en
+  favicon: images/icons8-lion-16.png
+  icon:
+    logo: material/glasses
+  features:
+   # - navigation.tabs
+    #- navigation.path
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+   # - navigation.footer
+    - search.suggest
+  palette:
+       # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: teal
+      accent: teal
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: teal
+      accent: teal
+extra:
+  generator: true
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kono94
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/jan-l%C3%B6wenstrom-b8a7aa191/
+copyright: Copyright &copy; 2024 Jan Löwenstrom
+
+plugins:
+  - tags:
+      tags_file: tags.md
+  - blog:
+      blog_dir: .
+      authors_file: "{blog}/.authors.yaml"
+      post_date_format: medium
+      post_excerpt: required
+      categories_allowed:
+        - Python
+        - Java
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - social
