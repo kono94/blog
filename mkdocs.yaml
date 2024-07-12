@@ -51,8 +51,9 @@ plugins:
       post_date_format: medium
       post_excerpt: required
       categories_allowed:
-        - Python
-        - Java
+        - Programming
+        - Hardware
+        - Tooling
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - social

@@ -1,15 +1,17 @@
----
-draft: true 
+--- 
 date: 2024-01-31
-readtime: 5
-slug: second
+slug: gstreamer-pipelines
+title: Basic GStreamer Pipelines
+draft: true
+authors:
+  - kono94 
 categories:
-  - Java
+  - Programming
 tags:
-  - HTML5
-  - JavaScript
+  - GStreamer
 ---
-# KEKrld!
+
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
 nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
 massa, nec semper lorem quam in massa.
